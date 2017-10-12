@@ -72,3 +72,13 @@ plt.show()
 
 scipy.misc.imread()
 
+# Odev
+
+img_var = plt.imread("var.jpg")
+img_yok = plt.imread("yok.jpg")
+
+plt.imshow(img_yok - img_var)
+plt.show()
+
+
+
